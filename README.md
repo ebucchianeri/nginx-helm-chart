@@ -1,8 +1,21 @@
 # Nginx Helm Chart
 
 
+# Add the repo and install the chart
+- Add the repo: `helm repo add nginx https://ebucchianeri.github.io/nginx-helm-chart/`
+- Download updates from repo: `helm repo update`
+- Search Helm Charts: `helm search repo`
+- Install Chart: `helm install nginx nginx/nginx-helm`
+- Uninstall: `helm uninstall nginx`
 
+# Install the tgz
+Install from the tgz:
+`helm install nginx ./docs/nginx-helm-0.1.0.tgz`
 
 # Build and publish
-`helm package . --destination docs/`
-`helm repo index . --url <URL> --merge docs/index.yaml `
+For this first version the Helm Chart is packaged manually and served
+as a GitHub Page under `/docs`.
+
+To package it:
+- `helm package . --destination docs/`
+- `helm repo index . --url <URL> --merge docs/index.yaml `
