@@ -17,5 +17,7 @@ For this first version the Helm Chart is packaged manually and served
 as a GitHub Page under `/docs`.
 
 To package it:
-- `helm package . --destination docs/`
-- `helm repo index . --url <URL> --merge docs/index.yaml `
+```
+helm package . --destination docs/
+helm repo index . --url <URL> --merge docs/index.yaml 
+```
