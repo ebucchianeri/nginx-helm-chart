@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  nginx-helm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-08-18T13:36:01.79149868Z"
+    description: A Helm chart for Kubernetes
+    digest: 985ec721bc13df9982e2e63524d47cb44aff5d5809c7c8144365c4fcf60ddf58
+    name: nginx-helm
+    type: application
+    urls:
+    - https://ebucchianeri.github.io/nginx-helm-chart/docs/nginx-helm-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-08-18T13:36:01.790997425Z"

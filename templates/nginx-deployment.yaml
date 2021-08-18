@@ -13,6 +13,8 @@ spec:
     metadata:
       labels:
         app: nginx
+      annotations:
+        k8s.v1.cni.cncf.io/networks: default/vcdn-user
     spec:
       containers:
       - name: nginx
