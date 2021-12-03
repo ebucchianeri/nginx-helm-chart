@@ -3,12 +3,22 @@ entries:
   nginx-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-13T10:58:25.291495955Z"
+    created: "2021-12-03T10:50:15.305086599Z"
     description: A Helm chart for Kubernetes
-    digest: e256d65c82e62d5e632b2c19b13aea3e9fdb7a3b9cb9722b17ee481de54befda
+    digest: 5ede3b30e41dc8640ca2cc10cfab058b0cebc235b65c218231e21883159b914d
     name: nginx-helm
     type: application
     urls:
-    - https://ebucchianeri.github.io/nginx-helm-chart/nginx-helm-0.1.0.tgz
+    - https://ebucchianeri.github.io/nginx-helm-chart/docs/nginx-helm-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-12-03T10:50:15.304763218Z"
+    description: A Helm chart for Kubernetes
+    digest: 985ec721bc13df9982e2e63524d47cb44aff5d5809c7c8144365c4fcf60ddf58
+    name: nginx-helm
+    type: application
+    urls:
+    - https://ebucchianeri.github.io/nginx-helm-chart/docs/nginx-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-13T10:58:25.291185505Z"
+generated: "2021-12-03T10:50:15.304412547Z"
