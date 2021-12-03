@@ -9,7 +9,7 @@ entries:
     name: nginx-helm
     type: application
     urls:
-    - https://ebucchianeri.github.io/nginx-helm-chart/docs/nginx-helm-0.2.0.tgz
+    - https://ebucchianeri.github.io/nginx-helm-chart/nginx-helm-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
@@ -19,6 +19,6 @@ entries:
     name: nginx-helm
     type: application
     urls:
-    - https://ebucchianeri.github.io/nginx-helm-chart/docs/nginx-helm-0.1.0.tgz
+    - https://ebucchianeri.github.io/nginx-helm-chart/nginx-helm-0.1.0.tgz
     version: 0.1.0
 generated: "2021-12-03T10:50:15.304412547Z"
