@@ -1,5 +1,5 @@
 # Nginx Helm Chart
-
+Helm chart for testing integration with OSM - K8s
 
 # Add the repo and install the chart
 - Add the repo: `helm repo add nginx https://ebucchianeri.github.io/nginx-helm-chart/`

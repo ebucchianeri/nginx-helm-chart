@@ -13,8 +13,10 @@ spec:
     metadata:
       labels:
         app: nginx
-      annotations:
-        k8s.v1.cni.cncf.io/networks: default/vcdn-user
+# Annotation to add an interface (using multus) on the user_net
+# and NGINX is reachable at the IP:80 on the user_net
+#      annotations:
+#        k8s.v1.cni.cncf.io/networks: default/vcdn-user
     spec:
       containers:
       - name: nginx
