@@ -19,5 +19,10 @@ as a GitHub Page under `/docs`.
 To package it:
 ```
 helm package . --destination docs/
-helm repo index . --url <URL> --merge docs/index.yaml 
+```
+To update the index
+```
+cd docs
+mkh repo index .. --url https://ebucchianeri.github.io/nginx-helm-chart/ --merge index.yaml
+cp ../index.yaml . 
 ```
